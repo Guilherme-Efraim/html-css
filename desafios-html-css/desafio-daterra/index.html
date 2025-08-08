@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riquezas da Terra</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .poster {
+            background-color: rgb(237, 229, 220);
+            height: 600px;
+            width: 500px;
+            margin: auto;
+            margin-top: 20px;
+            padding-top: 40px;
+        }
+
+        #CapaLivro {
+            position: relative;
+            background-color: brown;
+            /* border: 1px solid black; */
+            background-image: url(./src/imagens/plataforma-de-petroleo.jpeg);
+            background-position: center center;
+            width: 300px;
+            height: 400px;
+            margin: auto;
+        }
+
+        .QuadradoRed {
+            background-color: red;
+            width: 115px;
+            height: 115px;
+        }
+
+        .QuadradoRed h1 {
+            color: white;
+            padding-left: 13px;
+            padding-top: 5px;
+            font-size: 24px;
+        }
+
+        .QuadradoRed h2 {
+            font-weight:600;
+            font-size: 22px;
+            text-align: justify;
+            text-align: center;
+        }
+
+        #TituloPrincipal1 {
+            position: absolute;
+            top: 74px;
+            font-size: 45px;
+            /* border: 1px solid black; */
+            width: 175px;
+            margin-left: 120px;
+            color: yellow;
+        }
+
+        #TituloPrincipal2 {
+            position: absolute;
+            top: 120px;
+            color: white;
+            font-size: 38px;
+            margin-left: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <article id="CapaLivro">
+            <div class="QuadradoRed">
+                <h1>Seleções</h1>
+                <h2>Incríveis <br> Poderes da <br> Natureza</h2>
+            </div>
+            <h1 id="TituloPrincipal1">Riquezas</h1>
+            <h2 id="TituloPrincipal2">DA TERRA</h2>
+        </article>
+    </div>
+</body>
+</html>
