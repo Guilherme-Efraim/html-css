@@ -3,3 +3,39 @@
 @media print {
     
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    main {
+        #tablet {display: block;}
+        #phone {display: none;}
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    main {
+        #tablet {display: none;}
+        #pc {display: block;}
+        #phone {display: none;}
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main {
+        #phone {display: none;}
+        #tablet {display: none;}
+        #pc {display: none;}
+        #tv {display: block;}
+    }
+}
