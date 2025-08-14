@@ -8,7 +8,7 @@
 
 header {
     height: 150px;
-    background-color: rgb(207, 207, 179);
+    background-image: linear-gradient(to bottom, rgb(207, 207, 179), rgb(128, 128, 89));
 }
 
 header h1 {
@@ -54,4 +54,8 @@ article {
     padding: 20px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.471);
     border-radius: 10px 10px 10px 10px;
+}
+
+article p {
+    margin: 20px;
 }
