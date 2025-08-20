@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox align-content</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        div#container {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            background-color: yellow;
+        }
+
+        .filho {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 1px solid black;
+            background-color: aqua;
+        }
+
+        div#container div.cubo {
+            display: block;
+            background-color: white;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="filho">
+            <div class="cubo"></div>
+        </div>
+        <div class="filho">
+            <div class="cubo"></div>
+        </div>
+        <div class="filho">
+            <div class="cubo"></div>
+        </div>
+    </div>
+</body>
+</html>
