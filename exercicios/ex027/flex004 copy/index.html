@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.container {
+            background-image: linear-gradient(to top, black, rgb(45, 87, 202));
+            display: flex;
+            flex-flow: row nowrap;
+            /* justify-content: space-around; */
+            align-items: center;
+            height: 160px;
+            width: 80vw;
+            margin: auto;
+            padding: 20px;
+            /* border-radius: 10px; */
+            overflow: scroll;
+        }
+
+        div.item {
+            background-color: white;
+            border: 1px solid black;
+            text-align: center;
+            height: 130px;
+            width: 90px;
+            min-width: 90px;
+            margin-left: 10px;
+        }
+
+        #imagem1 {
+            background: url(./imagens/alice-portrait-g.png);
+            background-size: cover;
+        }
+        #imagem2 {
+            background: url(./imagens/Aemon-portrait.webp);
+            background-size: cover;
+        }
+        #imagem3 {
+            background: url(./imagens/Gusion.webp);
+            background-size: cover;
+        }
+        #imagem4 {
+            background: url(./imagens/lukas-mbl.webp);
+            background-size: cover;
+        }
+        #imagem5 {
+            background: url(./imagens/melissa-mbl.png);
+            background-size: cover;
+        }
+        #imagem6 {
+            background: url(./imagens/jungle-mbl.png);
+            background-size: cover;
+        }
+        #imagem7 {
+            background: url(./imagens/Mobile-Legends-Vexana.webp);
+            background-size: cover;
+        }
+        #imagem8 {
+            background: url(./imagens/suyou-mbl.webp);
+            background-size: cover;
+        }
+        #imagem9 {
+            background: url(./imagens/zhuxin-portrait.webp);
+            background-size: cover;
+        }
+        #imagem10 {
+            background: url(./imagens/which-hero-is-the-main-character-of-mobile-legends-v0-6vzdmjkxq1zc1.webp);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="imagem1"></div>
+        <div class="item" id="imagem2"></div>
+        <div class="item" id="imagem3"></div>
+        <div class="item" id="imagem4"></div>
+        <div class="item" id="imagem5"></div>
+        <div class="item" id="imagem6"></div>
+        <div class="item" id="imagem7"></div>
+        <div class="item" id="imagem8"></div>
+        <div class="item" id="imagem9"></div>
+        <div class="item" id="imagem10"></div>
+    </div>
+</body>
+</html>
