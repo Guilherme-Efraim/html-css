@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layoult na Pratica</title>
+    <style>
+        div.container {
+            border: 3px solid blue;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 100px 100px 100px;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            gap: 10px;
+            padding: 10px;
+            background-color: rgb(129, 129, 129);
+        }
+
+        div.item {
+            text-align: center;
+            width: 150px;
+            border: 3px solid red;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+    </div>
+</body>
+</html>
