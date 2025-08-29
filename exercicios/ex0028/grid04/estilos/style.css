@@ -60,6 +60,8 @@ nav#navmenu > .navitem > a {
 
 main {
     display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 section#containerleft {
@@ -67,8 +69,8 @@ section#containerleft {
     flex-direction: column;
     justify-content: flex-start;
     background-color: rgb(75, 86, 114);
-    width: 30vw;
-    height: 80vh;
+    width: 130px;
+    height: 90vh;
 }
 
 section#containerleft > .menuitem {
@@ -98,23 +100,24 @@ div.menuitem > p > a {
 section#conteudoprincipal {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+
     gap: 20px;
     margin: 5px;
-    width: 70vw;
-    background-color: yellow;
+    width: 340px;
+    /* background-color: yellow; */
 }
 
 .principalitem {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     border: 1px solid black;
 }
 
 .principalitem > img {
-    width: 150px;
-    height: 200px;
+    /* width: 150px;
+    height: 200px; */
 }
